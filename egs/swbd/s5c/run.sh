@@ -3,6 +3,8 @@
 . cmd.sh
 . path.sh
 
+echo "train_cmd = ${train_cmd}"
+
 # This setup was modified from egs/swbd/s5b, with the following changes:
 # 1. added more training data for early stages
 # 2. removed SAT system (and later stages) on the 100k utterance training data
